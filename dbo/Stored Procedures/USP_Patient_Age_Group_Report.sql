@@ -1,0 +1,45 @@
+﻿
+
+
+
+CREATE     PROCEDURE [dbo].[USP_Patient_Age_Group_Report]
+AS
+BEGIN
+
+
+SELECT
+
+CASE
+
+WHEN DATEDIFF(YEAR,DateOfBirth,GETDATE())<18
+THEN 'Child'
+
+WHEN DATEDIFF(YEAR,DateOfBirth,GETDATE()) BETWEEN 18 AND 60
+THEN 'Adult'
+
+ELSE 'Senior'
+
+END AgeGroup,
+
+
+COUNT(*) TotalPatients
+
+
+FROM Patient
+
+GROUP BY
+
+CASE
+
+WHEN DATEDIFF(YEAR,DateOfBirth,GETDATE())<18
+THEN 'Child'
+
+WHEN DATEDIFF(YEAR,DateOfBirth,GETDATE()) BETWEEN 18 AND 60
+THEN 'Adult'
+
+ELSE 'Senior'
+
+END
+
+
+END

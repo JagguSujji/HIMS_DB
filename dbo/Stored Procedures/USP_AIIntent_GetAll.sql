@@ -1,0 +1,12 @@
+﻿
+
+
+CREATE     PROCEDURE [dbo].[USP_AIIntent_GetAll]
+AS
+BEGIN
+
+SELECT *
+FROM AIIntent
+WHERE IsActive=1
+
+END

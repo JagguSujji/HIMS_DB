@@ -1,0 +1,88 @@
+07-07-2026 21:22:44	This log contains information about the import schema operation into project 'HIMS_DB' on computer 'DESKTOP-T997S1L' by user 'Lenovo'.
+07-07-2026 21:22:44	Import of database schema has started.
+07-07-2026 21:22:58	Gathering database credentials
+07-07-2026 21:22:58	Gathering database options
+07-07-2026 21:22:58	Gathering generic database scoped configuration option
+07-07-2026 21:22:58	Gathering users
+07-07-2026 21:22:58	Gathering roles
+07-07-2026 21:22:58	Gathering application roles
+07-07-2026 21:22:58	Gathering role memberships
+07-07-2026 21:22:58	Gathering filegroups
+07-07-2026 21:22:58	Gathering full-text catalogs
+07-07-2026 21:22:58	Gathering assemblies
+07-07-2026 21:22:58	Gathering certificates
+07-07-2026 21:22:58	Gathering asymmetric keys
+07-07-2026 21:22:58	Gathering symmetric keys
+07-07-2026 21:22:58	Gathering encrypted symmetric keys
+07-07-2026 21:22:58	Gathering schemas
+07-07-2026 21:22:58	Gathering XML schema collections
+07-07-2026 21:22:58	Gathering user-defined data types
+07-07-2026 21:22:58	Gathering user-defined types
+07-07-2026 21:22:58	Gathering table types
+07-07-2026 21:22:58	Gathering unique keys for table types
+07-07-2026 21:22:58	Gathering primary keys for table types
+07-07-2026 21:22:58	Gathering indexes for table types
+07-07-2026 21:22:58	Gathering check constraints for table types
+07-07-2026 21:22:58	Gathering default constraints for table types
+07-07-2026 21:22:58	Gathering partition functions
+07-07-2026 21:22:58	Gathering partition schemes
+07-07-2026 21:22:58	Gathering functions
+07-07-2026 21:22:58	Gathering encrypted functions
+07-07-2026 21:22:58	Gathering aggregates
+07-07-2026 21:22:58	Gathering procedures
+07-07-2026 21:22:59	Gathering encrypted procedures
+07-07-2026 21:22:59	Gathering tables
+07-07-2026 21:23:01	Gathering primary keys
+07-07-2026 21:23:01	Gathering unique constraints
+07-07-2026 21:23:01	Gathering foreign keys
+07-07-2026 21:23:01	Gathering default constraints
+07-07-2026 21:23:01	Gathering check constraints
+07-07-2026 21:23:01	Gathering views
+07-07-2026 21:23:01	Gathering encrypted views
+07-07-2026 21:23:01	Gathering indexes
+07-07-2026 21:23:01	Gathering statistics
+07-07-2026 21:23:01	Gathering full-text index stoplists
+07-07-2026 21:23:01	Gathering search property lists
+07-07-2026 21:23:01	Gathering search properties
+07-07-2026 21:23:01	Gathering full-text indexes
+07-07-2026 21:23:01	Gathering column store indexes
+07-07-2026 21:23:01	Gathering spatial indexes
+07-07-2026 21:23:01	Gathering XML indexes
+07-07-2026 21:23:01	Gathering Selective XML indexes
+07-07-2026 21:23:01	Gathering encrypted triggers
+07-07-2026 21:23:01	Gathering triggers
+07-07-2026 21:23:01	Gathering encrypted and clr ddl triggers
+07-07-2026 21:23:01	Gathering ddl triggers
+07-07-2026 21:23:01	Creating edge constraints
+07-07-2026 21:23:01	Gathering synonyms
+07-07-2026 21:23:01	Gathering defaults
+07-07-2026 21:23:01	Gathering data constraint uddt bindings
+07-07-2026 21:23:01	Gathering rules
+07-07-2026 21:23:01	Gathering data constraint uddt bindings
+07-07-2026 21:23:01	Gathering message types
+07-07-2026 21:23:01	Gathering queues
+07-07-2026 21:23:01	Gathering contracts
+07-07-2026 21:23:01	Gathering services
+07-07-2026 21:23:01	Gathering event notifications
+07-07-2026 21:23:01	Gathering remote service bindings
+07-07-2026 21:23:01	Gathering broker priorities
+07-07-2026 21:23:01	Gathering signatures
+07-07-2026 21:23:01	Gathering compression options
+07-07-2026 21:23:01	Gathering sequence types
+07-07-2026 21:23:01	Gathering security policies
+07-07-2026 21:23:01	Gather column encryption keys
+07-07-2026 21:23:01	Gathering column master keys
+07-07-2026 21:23:01	Gathering external data sources
+07-07-2026 21:23:01	Gathering external file formats
+07-07-2026 21:23:01	Gathering external tables
+07-07-2026 21:23:01	Gathering XML index compression options
+07-07-2026 21:23:01	Gathering extended properties
+07-07-2026 21:23:02	Gathering assemblies
+07-07-2026 21:23:02	Gathering credentials
+07-07-2026 21:23:02	Gathering logins
+07-07-2026 21:23:02	Gathering server audits
+07-07-2026 21:23:03	Scanning project for duplicate elements
+07-07-2026 21:23:04	Finished duplicate element processing
+07-07-2026 21:23:06	Finished importing database.
+07-07-2026 21:23:06	A summary of the import was saved to the following location: C:\Users\Lenovo\Source\Repos\HIMSDB\Import Schema Logs\HIMS_DB_20260707035244.log
+07-07-2026 21:23:06	Click Finish to continue...

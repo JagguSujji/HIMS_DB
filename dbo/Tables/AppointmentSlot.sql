@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[AppointmentSlot] (
+    [SlotId]         BIGINT         IDENTITY (1, 1) NOT NULL,
+    [AvailabilityId] INT            NOT NULL,
+    [DoctorId]       BIGINT         NOT NULL,
+    [BranchId]       INT            NOT NULL,
+    [DepartmentId]   INT            NOT NULL,
+    [SlotDate]       DATE           NOT NULL,
+    [StartTime]      TIME (7)       NOT NULL,
+    [EndTime]        TIME (7)       NOT NULL,
+    [Capacity]       INT            DEFAULT ((1)) NOT NULL,
+    [BookedCount]    INT            DEFAULT ((0)) NOT NULL,
+    [SlotStatusId]   BIGINT         NOT NULL,
+    [IsBlocked]      BIT            DEFAULT ((0)) NOT NULL,
+    [Remarks]        NVARCHAR (500) NULL,
+    [CreatedOn]      DATETIME2 (7)  DEFAULT (getdate()) NULL,
+    [IsBooked]       BIT            NULL,
+    [AppointmentId]  INT            NULL,
+    PRIMARY KEY CLUSTERED ([SlotId] ASC),
+    CONSTRAINT [FK_AppointmentSlot_Availability] FOREIGN KEY ([AvailabilityId]) REFERENCES [dbo].[DoctorAvailability] ([AvailabilityId]),
+    CONSTRAINT [FK_AppointmentSlot_Branch] FOREIGN KEY ([BranchId]) REFERENCES [dbo].[Branch] ([BranchId]),
+    CONSTRAINT [FK_AppointmentSlot_Department] FOREIGN KEY ([DepartmentId]) REFERENCES [dbo].[Department] ([DepartmentId]),
+    CONSTRAINT [FK_AppointmentSlot_Provider] FOREIGN KEY ([DoctorId]) REFERENCES [dbo].[Provider] ([ProviderId]),
+    CONSTRAINT [FK_AppointmentSlot_Status] FOREIGN KEY ([SlotStatusId]) REFERENCES [dbo].[AppointmentSlotStatus] ([SlotStatusId])
+);
+

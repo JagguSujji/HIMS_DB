@@ -1,0 +1,9 @@
+﻿
+
+CREATE     PROCEDURE [dbo].[USP_AIModel_GetAll]
+AS
+BEGIN
+ SELECT *
+ FROM AIModel
+ WHERE IsActive=1
+END
